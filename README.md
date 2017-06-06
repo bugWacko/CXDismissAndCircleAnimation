@@ -4,4 +4,4 @@
 
 ## 效果图
 
-![dismissAndCircleAnimation](https://www.baidu.com)
+![dismissAndCircleAnimation](https://raw.githubusercontent.com/bugWacko/CXDismissAndCircleAnimation/master/source/dismissAnimation.gif)
