@@ -15,6 +15,10 @@
 		1122C6BA1EE55375006CA37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1122C6B81EE55375006CA37B /* LaunchScreen.storyboard */; };
 		1122C6C51EE55375006CA37B /* CXDismissAndCircleAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122C6C41EE55375006CA37B /* CXDismissAndCircleAnimationTests.m */; };
 		1122C6D01EE55375006CA37B /* CXDismissAndCircleAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122C6CF1EE55375006CA37B /* CXDismissAndCircleAnimationUITests.m */; };
+		1122C6E21EE553F8006CA37B /* CXAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122C6DF1EE553F8006CA37B /* CXAnimationButton.m */; };
+		1122C6E31EE553F8006CA37B /* CXCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122C6E11EE553F8006CA37B /* CXCircleAnimationView.m */; };
+		1122C6E61EE557CB006CA37B /* PresentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122C6E51EE557CB006CA37B /* PresentVC.m */; };
+		1122C6E91EE55810006CA37B /* DismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122C6E81EE55810006CA37B /* DismissAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		1122C6CB1EE55375006CA37B /* CXDismissAndCircleAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXDismissAndCircleAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1122C6CF1EE55375006CA37B /* CXDismissAndCircleAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDismissAndCircleAnimationUITests.m; sourceTree = "<group>"; };
 		1122C6D11EE55375006CA37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1122C6DE1EE553F8006CA37B /* CXAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAnimationButton.h; sourceTree = "<group>"; };
+		1122C6DF1EE553F8006CA37B /* CXAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAnimationButton.m; sourceTree = "<group>"; };
+		1122C6E01EE553F8006CA37B /* CXCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCircleAnimationView.h; sourceTree = "<group>"; };
+		1122C6E11EE553F8006CA37B /* CXCircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCircleAnimationView.m; sourceTree = "<group>"; };
+		1122C6E41EE557CB006CA37B /* PresentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentVC.h; sourceTree = "<group>"; };
+		1122C6E51EE557CB006CA37B /* PresentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentVC.m; sourceTree = "<group>"; };
+		1122C6E71EE55810006CA37B /* DismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissAnimation.h; sourceTree = "<group>"; };
+		1122C6E81EE55810006CA37B /* DismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,13 @@
 		1122C6A91EE55375006CA37B /* CXDismissAndCircleAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				1122C6DD1EE553F8006CA37B /* CXAnimation */,
 				1122C6AD1EE55375006CA37B /* AppDelegate.h */,
 				1122C6AE1EE55375006CA37B /* AppDelegate.m */,
 				1122C6B01EE55375006CA37B /* ViewController.h */,
 				1122C6B11EE55375006CA37B /* ViewController.m */,
+				1122C6E41EE557CB006CA37B /* PresentVC.h */,
+				1122C6E51EE557CB006CA37B /* PresentVC.m */,
 				1122C6B31EE55375006CA37B /* Main.storyboard */,
 				1122C6B61EE55375006CA37B /* Assets.xcassets */,
 				1122C6B81EE55375006CA37B /* LaunchScreen.storyboard */,
@@ -138,6 +153,19 @@
 				1122C6D11EE55375006CA37B /* Info.plist */,
 			);
 			path = CXDismissAndCircleAnimationUITests;
+			sourceTree = "<group>";
+		};
+		1122C6DD1EE553F8006CA37B /* CXAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1122C6E71EE55810006CA37B /* DismissAnimation.h */,
+				1122C6E81EE55810006CA37B /* DismissAnimation.m */,
+				1122C6DE1EE553F8006CA37B /* CXAnimationButton.h */,
+				1122C6DF1EE553F8006CA37B /* CXAnimationButton.m */,
+				1122C6E01EE553F8006CA37B /* CXCircleAnimationView.h */,
+				1122C6E11EE553F8006CA37B /* CXCircleAnimationView.m */,
+			);
+			path = CXAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1122C6B21EE55375006CA37B /* ViewController.m in Sources */,
+				1122C6E31EE553F8006CA37B /* CXCircleAnimationView.m in Sources */,
+				1122C6E61EE557CB006CA37B /* PresentVC.m in Sources */,
+				1122C6E91EE55810006CA37B /* DismissAnimation.m in Sources */,
+				1122C6E21EE553F8006CA37B /* CXAnimationButton.m in Sources */,
 				1122C6AF1EE55375006CA37B /* AppDelegate.m in Sources */,
 				1122C6AC1EE55375006CA37B /* main.m in Sources */,
 			);
